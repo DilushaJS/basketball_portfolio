@@ -1,0 +1,253 @@
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #333;
+  position: fixed;
+  width: 98%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 40px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+#about {
+  background-color: #442ca358;
+  margin-top: 90px;
+  text-align: center;
+}
+#about h1 {
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+}
+.profile-pic img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.personal-details {
+  text-align: left;
+}
+
+.personal-details h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.personal-details p {
+  font-size: 20px;
+  color: #073967;
+  margin-bottom: 5px;
+}
+
+.bio {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 20px;
+  font-family:'Times New Roman', Times, serif;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.achievements {
+  list-style: none;
+  padding: 20px 0;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.achievements li {
+  font-size: 16px;
+  color: #073967;
+  margin-bottom: 10px;
+}
+
+.achievements li:before {
+  content: "\2022";
+  color: #333;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+#gallery {
+  text-align: center;
+}
+
+.gallery-item {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+.sliderImage {
+  display: none;
+}
+
+.gallery-item img {
+  position: inherit;
+  width: 700px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 400px;
+}
+.gallery-item .tooltip {
+  margin-left: 750px;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.gallery-item:hover .tooltip {
+  opacity: 1;
+}
+.gallery-item {
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover {
+  opacity: 0.8;
+}
+
+
+aside {
+  background-color: #A9A9A9;
+  padding: 20px;
+}
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.contact-info p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  margin-bottom: 5px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+  transform: scaleX(1);
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: larger;
+  margin-left: 165px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+}
+
+.swiper-wrapper img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+body {
+    font-family: Arial, sans-serif;
+}

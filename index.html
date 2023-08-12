@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesocial.css"> 
+  <title>Basketball Portfolio</title>
+</head>
+<body>
+<header>
+  <div class="logo">
+        <img src="logo.png" alt="Logo">
+  </div>
+  <div class="profile-icon">
+  <a href="loginform.html">
+    <img src="profilelog.gif" alt="profile log icon">
+  </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <aside class="social-media-sidebar">
+    <div class="social-icons">
+      <a href="https://www.fb.com" class="social-icon facebook">
+        <img src="facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com" class="social-icon instagram">
+        <img src="instagram.svg" alt="Instagram">
+      </a>
+      <a href="https://www.twitter.com" class="social-icon twitter">
+        <img src="twitter.svg" alt="Twitter">
+      </a>
+    </div>
+  </aside>
+  
+  <main>
+    <section id="about">
+        <button id="showMoreBtn" style="background-color: transparent;border-color:transparent;">About Me</button>
+        <div id="additionalInfo" style="display: none;">
+            <h1 style="font-size: 50px; font-family: 'Times New Roman', Times, serif;padding-top: 50px;">About Me</h1>
+            <div class="about-content">
+              <div class="profile-pic">
+                <img src="profile-pic.jpg" alt="Profile Picture" class="fade-in">
+              </div>
+              <div class="personal-details">
+                <h2>Dilusha Jayanindu Shashipriya</h2>
+                <p>Age: 24</p>
+                <p>Location: Galle, Sri Lanka</p>
+                <p>Occupation: Basketball Player</p>
+                <p>Experience: 11 years</p>
+              </div>
+            </div>
+            <p class="bio">
+              I possess an unwavering passion for basketball, finding joy in everything from shooting hoops to executing impressive dunks. My dedication to the 
+              sport is evident as I continually work to enhance my abilities. Whether engaged in court practice, analyzing game tactics, or maintaining optimal 
+              physical shape, I am fully committed to reaching my highest potential as a player. Beyond the game itself, basketball has instilled in me invaluable 
+              qualities such as teamwork, discipline, and unwavering determination, which extend into various aspects of my daily life. Embracing challenges 
+              and opportunities for growth is a constant pursuit, and I eagerly anticipate sharing my progress and accomplishments with others.<br><br></p> <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 25px; color: #073967;"> Thank you for visiting my portfolio!</p><br><br>
+            <h2 style="font-size: xx-large; font-family: 'Times New Roman', Times, serif;">My Achievements</h2>
+            <ul class="achievements">
+              <li>Won MVP (Most Valuable Player) Award in 2019 Championship</li>
+              <li>Scored a career-high 40 points in a single game</li>
+              <li>Selected for the All-Star team for three consecutive years</li>
+              <li>Led the team to victory in the regional tournament</li>
+            </ul>
+        </div>
+      </section>
+  </main>
+  
+    
+  <section id="gallery">
+    <div id="sliderContainer">
+        <h1 style="font-size:40px;font-family: 'Times New Roman', Times, serif;"> Skills<br></h1>
+        <div class="gallery-item">
+          <img class="sliderImage" src="dunk.jpg" alt="Dunk" >
+          <div id="tooltip-trigger" class="tooltip">
+            A basketball dunk is a powerful and athletic move where a player jumps high and forcefully slams the ball through the hoop. It's an exciting and iconic play that showcases athleticism and brings energy to the game.</div>
+        </div>
+        <div class="gallery-item">
+          <img class="sliderImage" src="layup.jpeg" alt="Layup">
+          <div id="tooltip-trigger" class="tooltip">A layup in basketball is a close-range shot where the player quickly releases the ball off the backboard and into the hoop. It's an essential scoring move used to score points near the basket.</div>
+        </div>
+        <div class="gallery-item">
+          <img class="sliderImage" src="3point.jpg" alt="3-Point Shot">
+          <div id="tooltip-trigger" class="tooltip">A 3-point shot in basketball is a long-range shot taken from beyond the arc, which is a designated area on the court. It's worth three points and is a valuable scoring option for teams. It requires skill, accuracy, and range to successfully make a 3-point shot.</div>
+        </div>
+    </div>
+  </section>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="fade-in" src="anim1.jpg" alt="Image 1">
+      </div>
+      <div class="swiper-slide">
+        <img class="fade-in" src="anim2.jpg" alt="Image 2">
+      </div>
+    </div>
+  </div>
+    <aside>
+        <div class="sidebar">
+          <h2 style="font-size: 40px; font-family: 'Times New Roman', Times, serif;">Contact Us</h2>
+          <form id="contactForm" action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <span class="error" id="messageError"></span>
+
+            <input type="submit" value="Submit">
+          </form>  
+        </div>
+      </aside>
+  <footer>
+    <div class="social-icons" id="contact">
+      <a href="https://www.fb.com" class="social-icon facebook">
+        <img src="facebook2.svg" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" class="social-icon twitter">
+        <img src="twitter2.svg" alt="Twitter">
+      </a>
+      <a href="https://www.instagram.com" class="social-icon instagram">
+        <img src="instagram2.svg" alt="Instagram">
+      </a>
+    </div>
+    <div class="contact-info" id="Contact">
+      <p>Email: dilushajayanindu@gmail.com</p>
+      <p>Phone: +94 77 765 4321</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+<script>
+const showMoreBtn = document.getElementById('showMoreBtn');
+const additionalInfo = document.getElementById('additionalInfo');
+
+showMoreBtn.addEventListener('click', function() {
+  if (additionalInfo.style.display === 'none') {
+    additionalInfo.style.display = 'block';
+    showMoreBtn.textContent = 'Show Less';
+  } else {
+    additionalInfo.style.display = 'none';
+    showMoreBtn.textContent = 'About Me';
+  }
+});
+const sliderContainer = document.getElementById('sliderContainer');
+const sliderImages = document.getElementsByClassName('sliderImage');
+let currentImageIndex = 0;
+
+
+function showNextImage() {
+
+  sliderImages[currentImageIndex].style.display = 'none';
+
+  currentImageIndex = (currentImageIndex + 1) % sliderImages.length;
+  
+
+  sliderImages[currentImageIndex].style.display = 'block';
+}
+
+
+const intervalId = setInterval(showNextImage, 3000);
+
+
+const navLinks = document.querySelectorAll('nav ul li a');
+
+function handleSmoothScroll(event) {
+  event.preventDefault();
+  
+  const targetId = event.currentTarget.getAttribute('href').slice(1);
+  
+  const targetSection = document.getElementById(targetId);
+  
+  const targetPosition = targetSection.offsetTop;
+  
+  window.scrollTo({
+    top: targetPosition,
+    behavior: 'smooth'
+  });
+}
+
+navLinks.forEach(link => {
+  link.addEventListener('click', handleSmoothScroll);
+});
+
+
+
+const portfolioItems = document.querySelectorAll('.gallery-item');
+
+portfolioItems.forEach((item) => {
+  item.addEventListener('mouseover', () => {
+    item.style.opacity = '0.8';
+  });
+
+  item.addEventListener('mouseout', () => {
+    item.style.opacity = '1';
+  });
+});
+
+
+
+
+const tooltipTrigger = document.getElementById('tooltip-trigger');
+const tooltipElement = document.createElement('div');
+tooltipElement.textContent = 'This is a tooltip';
+
+tooltipTrigger.addEventListener('mouseover', () => {
+  document.body.appendChild(tooltipElement);
+});
+
+tooltipTrigger.addEventListener('mouseout', () => {
+  tooltipElement.remove();
+});
+
+function handleIntersection(entries, observer) {
+  entries.forEach(entry => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    }
+  });
+}
+
+const fadeElements = document.querySelectorAll('.fade-in');
+const observerOptions = {
+  threshold: 0.5 
+};
+
+const observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+fadeElements.forEach(element => {
+  observer.observe(element);
+});
+
+</script>
