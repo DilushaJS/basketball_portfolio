@@ -1,6 +1,6 @@
 # Dilushajs.Assignment04.io.git
 
-URL : https://dilushajs.github.io/
+URL : https://dilushajs.github.io/Dilushajs.Assignment04.io/
 Source : https://github.com/DilushaJS/Dilushajs.Assignment04.io.git
 
 I have included the SQL database dump, named "basketballportfolio.sql," within the GitHub repository. This database file is located within a folder named "Database."
