@@ -1,4 +1,4 @@
-# Dilushajs.Assignment04.io.git
+# Basketball Portfolio
 
 URL : https://dilushajs.github.io/Dilushajs.Assignment04.io/
 Source : https://github.com/DilushaJS/Dilushajs.Assignment04.io.git
